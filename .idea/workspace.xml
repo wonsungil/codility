@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0956af1f-f98f-4d10-9c02-054ed3f362a1" name="Default Changelist" comment="MaxCounter 개선필요!!">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0956af1f-f98f-4d10-9c02-054ed3f362a1" name="Default Changelist" comment="O(N^">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/codility/lesson1_iterations/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/codility/lesson1_iterations/BinaryGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/codility/lesson4_counting_elements/MaxCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/codility/lesson4_counting_elements/MaxCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/MinAvgTwoSlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/MinAvgTwoSlice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,33 +79,42 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="14" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="16" />
-          <entry key="java" value="1968" />
-          <entry key="txt" value="63" />
+          <entry key="dummy" value="6" />
+          <entry key="gitignore" value="20" />
+          <entry key="java" value="11366" />
+          <entry key="sql" value="59" />
+          <entry key="txt" value="336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1968" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="JAVA" value="11366" />
+          <entry key="PLAIN_TEXT" value="362" />
+          <entry key="SQL" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -113,46 +122,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/FrogJmp.java">
+        <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/GenomicRangeQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="238">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/TapeEquilibrium.java">
+        <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/MinAvgTwoSlice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/MaxCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="289">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/CountDiv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/PermMissingElem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -198,6 +192,17 @@
         <option value="$PROJECT_DIR$/src/codility/lesson2_arrays/CyclicRotation.java" />
         <option value="$PROJECT_DIR$/src/codility/lesson4_counting_elements/MaxCounter.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/codility/lesson4_counting_elements/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson4_counting_elements/PermCheck.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson4_counting_elements/MissingInteger.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/PassingCars.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson99_future_training/SqlSum.sql" />
+        <option value="$PROJECT_DIR$/src/codility/lesson4_counting_elements/FrogRiverOne.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson92_2016_college_coders/TennisTournament.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/GnomicRangeQuery.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/GenomicRangeQuery.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/MinAvgTwoSlice.java" />
+        <option value="$PROJECT_DIR$/src/codility/lesson5_prefix_sums/CountDiv.java" />
       </list>
     </option>
   </component>
@@ -282,7 +287,21 @@
               <item name="codility" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codility" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4_counting_elements" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5_prefix_sums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson92_2016_college_coders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson99_future_training" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,9 +312,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/w/repository/codility/src/codility/lesson5_prefix_sums/PassingCars.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541580446130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542098729382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,13 +336,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxCounter">
-    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.lesson1_iterations.BinaryGap" />
+  <component name="RunManager" selected="Application.CountDiv">
+    <configuration name="CountDiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.lesson5_prefix_sums.CountDiv" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codility.lesson1_iterations.*" />
+          <option name="PATTERN" value="codility.lesson5_prefix_sums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,15 +350,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogJmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.lesson3_time_complexity.FrogJmp" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.lesson4_counting_elements.MaxCounter" />
+    <configuration name="FrogRiverOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.lesson4_counting_elements.FrogRiverOne" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -350,23 +363,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermMissingElem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.lesson3_time_complexity.PermMissingElem" />
+    <configuration name="GenomicRangeQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.lesson5_prefix_sums.GenomicRangeQuery" />
       <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codility.lesson5_prefix_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: lesson4_counting_elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/codility/lesson4_counting_elements" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="MinAvgTwoSlice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.lesson5_prefix_sums.MinAvgTwoSlice" />
       <module name="untitled" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: lesson4_counting_elements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="codility.lesson5_prefix_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisTournament" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.lesson92_2016_college_coders.TennisTournament" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codility.lesson92_2016_college_coders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,19 +403,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FrogJmp" />
-      <item itemvalue="Application.PermMissingElem" />
-      <item itemvalue="Application.BinaryGap" />
-      <item itemvalue="Cucumber java.All Features in: lesson4_counting_elements" />
-      <item itemvalue="Application.MaxCounter" />
+      <item itemvalue="Application.FrogRiverOne" />
+      <item itemvalue="Application.TennisTournament" />
+      <item itemvalue="Application.GenomicRangeQuery" />
+      <item itemvalue="Application.MinAvgTwoSlice" />
+      <item itemvalue="Application.CountDiv" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxCounter" />
-        <item itemvalue="Cucumber java.All Features in: lesson4_counting_elements" />
-        <item itemvalue="Application.BinaryGap" />
-        <item itemvalue="Application.PermMissingElem" />
-        <item itemvalue="Application.FrogJmp" />
+        <item itemvalue="Application.CountDiv" />
+        <item itemvalue="Application.MinAvgTwoSlice" />
+        <item itemvalue="Application.GenomicRangeQuery" />
+        <item itemvalue="Application.TennisTournament" />
+        <item itemvalue="Application.FrogRiverOne" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +432,11 @@
       <workItem from="1541463266189" duration="5996000" />
       <workItem from="1541490528329" duration="4439000" />
       <workItem from="1541498804682" duration="1770000" />
-      <workItem from="1541575615880" duration="4019000" />
+      <workItem from="1541575615880" duration="6154000" />
+      <workItem from="1541746952824" duration="6518000" />
+      <workItem from="1541992270740" duration="4411000" />
+      <workItem from="1542009765736" duration="2718000" />
+      <workItem from="1542081763736" duration="8046000" />
     </task>
     <task id="LOCAL-00001" summary="binarygap">
       <created>1541499713013</created>
@@ -427,7 +459,91 @@
       <option name="project" value="LOCAL" />
       <updated>1541580328137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ignore">
+      <created>1541580381832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541580381832</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PermCheck">
+      <created>1541581890369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541581890369</updated>
+    </task>
+    <task id="LOCAL-00006" summary="missingInteger">
+      <created>1541748211882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541748211882</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PassingCars">
+      <created>1541751726908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541751726908</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FrogRiverOne">
+      <created>1541753104237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541753104237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SqlSum">
+      <created>1541753337699</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541753337699</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TennisTournament">
+      <created>1541753883595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541753883596</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TennisTournament">
+      <created>1541753920509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541753920509</updated>
+    </task>
+    <task id="LOCAL-00012" summary="time complexity O(N*M)">
+      <created>1541994293795</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541994293795</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MinAvgTwoSlice&#10;&#10;time complexity ..">
+      <created>1542085452738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542085452739</updated>
+    </task>
+    <task id="LOCAL-00014" summary="O(N^3) -&gt; O(N^2)">
+      <created>1542088030927</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542088030927</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rename function">
+      <created>1542089373676</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542089373676</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,13 +561,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18477000" />
+    <option name="totallyTimeSpent" value="42305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="975" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="975" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13003664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,13 +576,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19818799" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41109854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295583" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.16761042" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -485,6 +600,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -492,7 +617,18 @@
     <MESSAGE value="binarygap" />
     <MESSAGE value="MaxCounter 개선필요!!" />
     <MESSAGE value="all_counter 시 업데이트 방식 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="all_counter 시 업데이트 방식 변경" />
+    <MESSAGE value="ignore" />
+    <MESSAGE value="PermCheck" />
+    <MESSAGE value="missingInteger" />
+    <MESSAGE value="PassingCars" />
+    <MESSAGE value="FrogRiverOne" />
+    <MESSAGE value="SqlSum" />
+    <MESSAGE value="TennisTournament" />
+    <MESSAGE value="time complexity O(N*M)" />
+    <MESSAGE value="MinAvgTwoSlice&#10;&#10;time complexity .." />
+    <MESSAGE value="O(N^3) -&gt; O(N^2)" />
+    <MESSAGE value="rename function" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/System.java" />
@@ -501,10 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,17 +644,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/FrogJmp.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/MaxCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -533,6 +675,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/FrogJmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codility/lesson3_time_complexity/PermMissingElem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -540,17 +689,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/MaxCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/PermCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson99_future_training/SqlSum.java" />
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson99_future_training/SqlSum.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson92_2016_college_coders/TennisTournament.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/FrogRiverOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/PassingCars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson4_counting_elements/MissingInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2131" column="37" lean-forward="true" selection-start-line="2131" selection-start-column="37" selection-end-line="2131" selection-end-column="37" />
+          <folding>
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/GenomicRangeQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/MinAvgTwoSlice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codility/lesson5_prefix_sums/CountDiv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
