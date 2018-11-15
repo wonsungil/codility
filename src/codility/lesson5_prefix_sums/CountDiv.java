@@ -1,5 +1,8 @@
 package codility.lesson5_prefix_sums;
 
+/**
+ * TODO 50/100
+ */
 public class CountDiv {
 
     public static int solution(int A, int B, int K) {

@@ -3,6 +3,9 @@ package codility.lesson5_prefix_sums;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * TODO 62/100
+ */
 public class GenomicRangeQuery {
     static Map<Character, Integer> genomMap;
     static {

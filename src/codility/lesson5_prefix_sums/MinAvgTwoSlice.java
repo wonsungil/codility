@@ -1,5 +1,8 @@
 package codility.lesson5_prefix_sums;
 
+/**
+ * TODO 60/100
+ */
 public class MinAvgTwoSlice {
 
     public static int solution(int[] A) {
