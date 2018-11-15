@@ -1,16 +1,17 @@
 package codility.lesson6_sorting;
 
 /**
- * 75/100
+ * 81/100
  */
 public class Triangle {
 
     public static boolean isTriangular(int[] A, int P, int Q, int R) {
 
-        if((A[P] + A[Q] > A[R])
-            && (A[Q] + A[R] > A[P])
-            && (A[R] + A[P] > A[Q])) {
+        long PQ = (long)A[P] + (long)A[Q];
+        long QR = (long)A[Q] + (long)A[R];
+        long RP = (long)A[R] + (long)A[P];
 
+        if (PQ>A[R] && QR>A[P] && RP>A[Q]) {
             return true;
         }
 
@@ -40,8 +41,10 @@ public class Triangle {
     public static void main(String[] args) {
         int[] A = {10, 2, 5, 1, 8, 20};
         int[] B = {10, 50, 5, 1};
-        System.out.println(solution(A));
-        System.out.println(solution(B));
+        int[] C = {Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE};
+//        System.out.println(solution(A));
+//        System.out.println(solution(B));
+        System.out.println(solution(C));
 
     }
 }
