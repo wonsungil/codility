@@ -1,5 +1,8 @@
 package codility.lesson6_sorting;
 
+/**
+ * 75/100
+ */
 public class Triangle {
 
     public static boolean isTriangular(int[] A, int P, int Q, int R) {
@@ -16,10 +19,16 @@ public class Triangle {
 
     public static int solution(int[] A) {
 
-        for (int i=0 ; i<A.length; i++) {
-            for (int j=i+1; j<A.length; j++) {
-                for (int k=j+1; k<A.length; k++) {
+        int size = A.length;
+
+        for (int i=0 ; i<size-2; i++) {
+            for (int j=i+1; j<size-1; j++) {
+                for (int k=j+1; k<size; k++) {
                     if(isTriangular(A, i, j, k)) {
+                        return 1;
+                    }
+
+                    if(isTriangular(A, size - (i+1), size - (j+1), size - (k+1))) {
                         return 1;
                     }
                 }
