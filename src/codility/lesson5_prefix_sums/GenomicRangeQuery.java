@@ -1,50 +1,72 @@
 package codility.lesson5_prefix_sums;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
- * TODO 62/100
+ * TODO 75/100
  */
 public class GenomicRangeQuery {
-    static Map<Character, Integer> genomMap;
-    static {
-        genomMap = new HashMap<>();
-        genomMap.put('A', 1);
-        genomMap.put('C', 2);
-        genomMap.put('G', 3);
-        genomMap.put('T', 4);
-    }
 
-    public static int minimalImpactFactor(String S) {
+    class Pair implements Comparable {
+        private int letter;
+        private int index;
 
-        int minimal = 999;
-
-        for (char C : S.toCharArray()) {
-            if(minimal > genomMap.get(C)) {
-                minimal = genomMap.get(C);
-            }
+        public Pair(int letter, int index ) {
+            this.letter = letter;
+            this.index = index;
         }
 
-        return minimal;
+        public int getLetter() {
+            return this.letter;
+        }
+
+        public int getIndex() {
+            return this.index;
+        }
+
+        @Override
+        public int compareTo(Object p) {
+            return this.letter - ((Pair)p).getLetter();
+        }
     }
 
-    public static int[] solution(String S, int[] P, int Q[]) {
+    public List<Pair> sortS(String S) {
+        List<Pair> pairList = new ArrayList<>();
+
+        char[] chars = S.toCharArray();
+        int value=0;
+        for (int i=0; i<chars.length; i++) {
+
+            switch (chars[i]) {
+                case 'A' : value = 1; break;
+                case 'C' : value = 2; break;
+                case 'G' : value = 3; break;
+                case 'T' : value = 4; break;
+                default : break;
+            }
+
+            Pair item  = new Pair(value, i);
+            pairList.add(item);
+        }
+        Collections.sort(pairList);
+        return pairList;
+    }
+
+    public int[] solution(String S, int[] P, int Q[]) {
 
         int M = P.length;
         int[] result = new int[M];
 
-        int p;
-        int q;
-        String subS = "";
+        List<Pair> sorted = sortS(S);
 
         for (int i=0; i<M; i++) {
-            p = P[i];
-            q = Q[i];
-            subS = S.substring(p, q+1);
-            result[i] = minimalImpactFactor(subS);
+            for (Pair item : sorted) {
+                if( item.getIndex() >= P[i] && item.getIndex() <= Q[i]) {
+                    result[i] = item.getLetter();
+                    break;
+                }
+            }
         }
-
         return result;
     }
 
@@ -53,8 +75,13 @@ public class GenomicRangeQuery {
         int[] P = {2, 5, 0};
         int[] Q = {4, 5, 6};
 
-        for (int i : solution(S, P , Q)) {
+        // 2, 4, 1
+
+        GenomicRangeQuery genomicRangeQuery = new GenomicRangeQuery();
+        for (int i : genomicRangeQuery.solution(S, P , Q)) {
             System.out.println(i);
         }
+
+
     }
 }

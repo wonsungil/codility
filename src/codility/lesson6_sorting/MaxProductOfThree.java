@@ -1,5 +1,8 @@
 package codility.lesson6_sorting;
 
+/**
+ * 44/100
+ */
 public class MaxProductOfThree {
 
     public static int triplet(int[] A, int P, int Q, int R) {
