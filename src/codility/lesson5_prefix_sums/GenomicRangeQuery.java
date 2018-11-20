@@ -1,55 +1,46 @@
 package codility.lesson5_prefix_sums;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * TODO 75/100
  */
 public class GenomicRangeQuery {
 
-    class Pair implements Comparable {
-        private int letter;
-        private int index;
-
-        public Pair(int letter, int index ) {
-            this.letter = letter;
-            this.index = index;
-        }
-
-        public int getLetter() {
-            return this.letter;
-        }
-
-        public int getIndex() {
-            return this.index;
-        }
-
-        @Override
-        public int compareTo(Object p) {
-            return this.letter - ((Pair)p).getLetter();
+    public int toValue(char C) {
+        switch (C) {
+            case 'A' : return 1;
+            case 'C' : return 2;
+            case 'G' : return 3;
+            case 'T' : return 4;
+            default : return 0;
         }
     }
 
-    public List<Pair> sortS(String S) {
-        List<Pair> pairList = new ArrayList<>();
+    public List<List<Integer>> generateRangeTable(char[] chars) {
 
-        char[] chars = S.toCharArray();
-        int value=0;
+        int minValue = 5;
+        List<List<Integer>> table = new ArrayList<>();
+
         for (int i=0; i<chars.length; i++) {
-
-            switch (chars[i]) {
-                case 'A' : value = 1; break;
-                case 'C' : value = 2; break;
-                case 'G' : value = 3; break;
-                case 'T' : value = 4; break;
-                default : break;
+            for (int j=i; j<chars.length;j++) {
+                if(minValue > toValue(chars[j])) {
+                    minValue = toValue(chars[j]);
+                }
+                if(table.size() > i) {
+                    table.get(i).add(minValue);
+                } else {
+                    List<Integer> inner = new ArrayList<>();
+                    inner.add(minValue);
+                    table.add(inner);
+                }
             }
-
-            Pair item  = new Pair(value, i);
-            pairList.add(item);
+            minValue = 5;
         }
-        Collections.sort(pairList);
-        return pairList;
+
+        return table;
     }
 
     public int[] solution(String S, int[] P, int Q[]) {
@@ -57,15 +48,10 @@ public class GenomicRangeQuery {
         int M = P.length;
         int[] result = new int[M];
 
-        List<Pair> sorted = sortS(S);
+        List<List<Integer>> table = generateRangeTable(S.toCharArray());
 
         for (int i=0; i<M; i++) {
-            for (Pair item : sorted) {
-                if( item.getIndex() >= P[i] && item.getIndex() <= Q[i]) {
-                    result[i] = item.getLetter();
-                    break;
-                }
-            }
+            result[i] = table.get(P[i]).get(Q[i]-P[i]);
         }
         return result;
     }
@@ -79,9 +65,7 @@ public class GenomicRangeQuery {
 
         GenomicRangeQuery genomicRangeQuery = new GenomicRangeQuery();
         for (int i : genomicRangeQuery.solution(S, P , Q)) {
-            System.out.println(i);
+                System.out.println(i);
         }
-
-
     }
 }
